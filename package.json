@@ -1,6 +1,7 @@
 {
   "name": "chanels-website",
   "version": "0.1.0",
+  "homepage": "https://liug26.github.io/me.github.io/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
