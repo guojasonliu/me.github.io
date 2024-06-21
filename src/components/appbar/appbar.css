@@ -1,0 +1,11 @@
+#flex-box-left
+{
+    flex: 1
+}
+
+#flex-box-right
+{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -12,44 +12,16 @@ code {
     monospace;
 }
 
-.half-darkened
-{
-  filter: brightness(50%);
-}
-
-.quarter-darkened
-{
-  filter: brightness(75%);
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
 /* based on https://www.w3schools.com/howto/howto_css_image_text.asp */
 .centered {
-  position: absolute;
-  top: 50vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-#home-contact-us
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem 0rem;
-  background-color: #d6cfc7;
-  width: 100%;
-}
-
-
-.fifty-centered-text
-{
-  width: 50%;
-  text-align: center;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
