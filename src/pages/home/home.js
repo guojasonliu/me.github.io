@@ -7,14 +7,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import './home.css';
 import { Home } from '@mui/icons-material';
+import Footer from '../../components/footer/footer';
 
-
-const APP_BAR_TABS_RIGHT = [
-    { label: 'About', type: 'link', link: '' },
-    { label: 'Portofolio', type: 'dropdown' },
-    { label: 'Gallery', type: 'link', link: '' },
-    { label: 'Contact', type: 'link', link: '' }
-];
 
 function HomePage()
 {
@@ -29,17 +23,31 @@ function HomePage()
 
     return (
         <div>
-            <AppBar tabsRight={APP_BAR_TABS_RIGHT} />
+            <AppBar />
             <header className='container'>
                 <Box id='darkened-background'>
                     <Carousel images={imageMappings.homeBackgroundImages} showStepper={true} interval={5000} />
                 </Box>
             </header>
             <section id='featured-albums'>
-                <HomeFeaturedAlbum />
+                <HomeFeaturedAlbum images={featured}/>
             </section>
+            <Footer />
         </div>
     );
   };
   
-  export default HomePage;
+export default HomePage;
+
+
+
+const featured = [
+{
+    image: 'https://t4.ftcdn.net/jpg/04/96/04/41/360_F_496044111_NtgcQqusPMz0AaxtBCDu5L8FifGQDkig.jpg',
+    text: 'first thing',
+}, 
+{
+    image: '/assets/images/IMG_3676.jpg',
+    text: 'second thing',
+}
+];

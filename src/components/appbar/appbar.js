@@ -10,6 +10,14 @@ const leftMargin = '0rem';
 const rightMargin = '2rem';
 const fontFamily = 'Arapey';
 
+const tabsRight = [
+    { label: 'Home', type: 'link', link: '/' },
+    { label: 'About', type: 'link', link: '/about' },
+    { label: 'Portofolio', type: 'dropdown' },
+    { label: 'Gallery', type: 'link', link: '/gallery' },
+    { label: 'Contact', type: 'link', link: '/contact' }
+];
+
 
 function parseTabs2HTML(tabs)
 {
@@ -49,12 +57,23 @@ function parseTabs2HTML(tabs)
     return tabsHTML;
 }
 
-function AppBar(props)
+AppBar.defaultProps = {
+    enableTopTransparent: true,
+    barPosition: 'fixed',
+    bgColorAtTop: 'transparent',
+    colorAtTop: 'white',
+    visibilityAtTop: 'hidden',
+    bgColorNotTop: 'white',
+    colorNotTop: 'black',
+    visibilityNotTop: 'visible'
+};
+
+function AppBar({ enableTopTransparent, barPosition, bgColorAtTop, colorAtTop, visibilityAtTop, bgColorNotTop, colorNotTop, visibilityNotTop })
 {
     useEffect(() => {
         const appBar = document.getElementById('app-bar');
         const flexBoxLeft = appBar.querySelector('#flex-box-left');
-        if (props.enableTopTransparent === false && appBar != null)
+        if (enableTopTransparent === false && appBar != null)
         {
             appBar.style.backgroundColor = 'white';
             appBar.style.color = 'black';
@@ -62,17 +81,17 @@ function AppBar(props)
         const onScroll = () =>
         {
             if (appBar != null)
-                if ((props.enableTopTransparent === undefined || props.enableTopTransparent) && window.scrollY === 0)
+                if (enableTopTransparent && window.scrollY === 0)
                 {
-                    appBar.style.backgroundColor = 'transparent';
-                    appBar.style.color = 'white';
-                    flexBoxLeft.style.visibility = 'hidden';
+                    appBar.style.backgroundColor = bgColorAtTop;
+                    appBar.style.color = colorAtTop;
+                    flexBoxLeft.style.visibility = visibilityAtTop;
                 }
                 else
                 {
-                    appBar.style.backgroundColor = 'white';
-                    appBar.style.color = 'black';
-                    flexBoxLeft.style.visibility = 'visible';
+                    appBar.style.backgroundColor = bgColorNotTop;
+                    appBar.style.color = colorNotTop;
+                    flexBoxLeft.style.visibility = visibilityNotTop;
                 }
         };
         window.addEventListener("scroll", onScroll);
@@ -83,12 +102,13 @@ function AppBar(props)
     }, []);
 
 
-    const tabsRightHTML = parseTabs2HTML(props.tabsRight);
+    const tabsRightHTML = parseTabs2HTML(tabsRight);
     
     return (
-        <MuiAppBar id='app-bar' elevation={0} position='fixed' sx={{ backgroundColor: 'transparent', padding: '0.5rem' }}>
+        <MuiAppBar id='app-bar' elevation={0} position={barPosition}
+            sx={{ backgroundColor: bgColorAtTop, color: colorAtTop, padding: '0.5rem' }}>
             <MuiToolbar sx={{ justifyContent: 'space-between' }}>
-                <Box id='flex-box-left' visibility='hidden'>
+                <Box id='flex-box-left' visibility={visibilityAtTop}>
                     <Link href='/' underline='none' variant='h4' color='inherit' fontFamily={fontFamily}>
                         Guo Jason Liu
                     </Link>
