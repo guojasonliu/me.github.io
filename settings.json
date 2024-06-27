@@ -1,0 +1,66 @@
+{
+    "appbarPortofolioAlbums": [
+        { "albumLink": "/fishers", "name": "Fishermen & Fisherbirds" }
+    ],
+    "homeBackgroundImages": [
+        "/assets/P1010143.JPG",
+        "/assets/IMG_3848.JPG",
+        "/assets/IMG_3676.jpg"
+    ],
+    "homeFeaturedAlbums": [
+        { "albumKey": "green-home", "textBoxP": "20rem", "imageHeight": "35rem", "fontFamily": "Arapey",
+            "fontSize": "5rem", "fontWeight": "regular" }
+    ],
+    "aboutImage": "https://via.placeholder.com/150",
+    "aboutText": "This is some text that will appear on the right side of the image.\nThe image and the text box have the same width.",
+    "gallery": [
+        {
+            "sectionName": "2024",
+            "albums": [
+                { "albumKey": "green-home", "textBoxP": "2rem", "fontFamily": "Arapey", "fontSize": "3rem", "fontWeight": "regular" }
+            ]
+        },
+        {
+            "sectionName": "2023",
+            "albums": [
+
+            ]
+        }
+    ],
+    "contactImage": "/assets/images/IMG_8971.jpg",
+    "albums": {
+        "green-home": {
+            "albumName": "The Green Home", "image": "/assets/albums/green-home/IMG_8917.jpg",
+            "imageListType": "quilted", "secondaryText": "Traveling back to the home of greenness and recovery", "tertiaryText": "Shot on Some Date",
+            "imageData": [
+                { "img": "/assets/albums/green-home/IMG_8917.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/green-home/IMG_8936.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/green-home/IMG_8968.jpg", "rows": 1, "cols": 3 },
+                { "img": "/assets/albums/green-home/IMG_8963.jpg", "rows": 1, "cols": 3 },
+                { "img": "/assets/albums/green-home/IMG_8983.jpg", "rows": 1, "cols": 3 },
+                { "img": "/assets/albums/green-home/IMG_8956.jpg", "rows": 1, "cols": 3 },
+                { "img": "/assets/albums/green-home/IMG_8971.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/green-home/IMG_8943.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/green-home/IMG_8966.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/green-home/IMG_8989.jpg", "rows": 1, "cols": 4 }
+            ]
+        },
+        "fishers": {
+            "albumName": "Fishermen & Fisherbirds", "image": "/assets/albums/fishers/8158.jpg",
+            "imageListType": "quilted", "secondaryText": "Winner winner fishing dinner", "tertiaryText": "Shot on Some Date",
+            "imageData": [
+                { "img": "/assets/albums/fishers/IMG_8158.jpg", "rows": 1, "cols": 7 },
+                { "img": "/assets/albums/fishers/IMG_8162.jpg", "rows": 1, "cols": 5 },
+                { "img": "/assets/albums/fishers/IMG_8169.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/fishers/IMG_8178.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/fishers/IMG_8194.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/fishers/IMG_8200.jpg", "rows": 1, "cols": 2 },
+                { "img": "/assets/albums/fishers/IMG_8209.jpg", "rows": 1, "cols": 2 },
+                { "img": "/assets/albums/fishers/IMG_8211.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/fishers/IMG_8212.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/fishers/IMG_8216.jpg", "rows": 1, "cols": 5 },
+                { "img": "/assets/albums/fishers/IMG_8219.jpg", "rows": 1, "cols": 7 }
+            ]
+        }
+    }
+}
