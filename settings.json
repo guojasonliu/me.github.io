@@ -51,7 +51,7 @@
         { "albumKey": "tokyo-2023", "textBoxP": "2rem", "lineHeight": "4rem", "fontSize": "3rem", "fontWeight": "regular", "fontFamily": "Arapey" },
         { "albumKey": "trios", "textBoxP": "2rem", "lineHeight": "", "fontSize": "3rem", "fontWeight": "regular", "fontFamily": "Arapey" }
     ],
-    "contactImage": "/assets/images/IMG_8971.jpg",
+    "contactImage": "/assets/IMG_5074.jpg",
     "albums": {
         "green-home": {
             "albumName": "The Green Home", "image": "/assets/albums/green-home/IMG_8917.jpg",
@@ -118,7 +118,7 @@
         },
         "interns": {
             "albumName": "Interns", "image": "/assets/albums/interns/IMG_7944.jpg",
-            "imageListType": "quilted", "secondaryText": "", "tertiaryText": "Shot on May 6, 2024 at Gayley Heights, LA",
+            "imageListType": "quilted", "secondaryText": "Who's the hottest?", "tertiaryText": "Shot on May 6, 2024 at Gayley Heights, LA",
             "imageData": [
                 { "img": "/assets/albums/interns/IMG_7925.jpg", "rows": 1, "cols": 7 },
                 { "img": "/assets/albums/interns/IMG_7933.jpg", "rows": 1, "cols": 5 },
