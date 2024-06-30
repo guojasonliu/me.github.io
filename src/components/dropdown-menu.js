@@ -33,6 +33,7 @@ function DropdownMenu({ label='', albums=[], leftMargin='3rem', rightMargin='1re
     }
 
     const menuItems = albums.map((albumKey) => (
+        settings.albums[albumKey] == undefined ? <div></div> : 
         <MenuItem key={albumKey} onClick={() => onAlbumClicked('/' + albumKey)}>{ settings.albums[albumKey].albumName }</MenuItem>
     ));
 
