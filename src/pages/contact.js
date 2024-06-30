@@ -17,10 +17,11 @@ function ContactPage()
         <Box display="flex" flexDirection="column" minHeight="100vh">
             <AppBar barPosition='static' bgColorAtTop='white' colorAtTop='black' bgColorNotTop='white'
                 colorNotTop='black' visibilityNotTop='hidden' />
-            <Box display='flex' justifyContent='space-between' alignItems='center' width='100%' padding='2rem'>
+            <Box display='flex' justifyContent='space-between' alignItems='center' padding='2rem'
+                flexDirection={settings.isMobile ? 'column' : 'row'}>
                 <Box flex={1} display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
                     <Typography variant='h3' align='center' padding='2rem' sx={{ fontWeight: 'bold' }}>
-                        Contact
+                        Contact Me
                     </Typography>
                     <Button variant='outlined' onClick={() => window.location.href = `mailto:${MY_EMAIL}`}
                         sx={{ color: 'black', borderColor: 'black', textTransform: 'none', fontSize: 'h6.fontSize',
@@ -28,7 +29,7 @@ function ContactPage()
                         Email
                     </Button>
                 </Box>
-                <Box flex={1}>
+                <Box flex={1} paddingTop='1.5rem' paddingBottom='1.5rem'>
                     <Typography variant='h6' align='center'>
                         EMAIL ADDRESS
                     </Typography>
@@ -37,8 +38,8 @@ function ContactPage()
                     </Typography>
                 </Box>
             </Box>
-            <Box flex={1}>
-                <img src={settings.contactImage} alt='' style={{ width: '100%' }} />
+            <Box flex={1} padding='2rem'>
+                <img src={settings.contactImage} alt='' style={{ maxWidth: '100%' }} onContextMenu={(e) => e.preventDefault()} />
             </Box>
             <Footer />
         </Box>

@@ -17,8 +17,10 @@ function HomeFeaturedAlbums()
             {settings.homeFeaturedAlbums.map(({ albumKey, textBoxP, imageHeight, fontFamily, fontSize, fontWeight }) =>
             (
                 <ImageButton image={settings.albums[albumKey].image} text={settings.albums[albumKey].albumName}
-                    textBoxP={textBoxP} imageHeight={imageHeight} fontFamily={fontFamily} fontSize={fontSize}
-                    fontWeight={fontWeight} onClick={() => navigate('/' + albumKey)}/>
+                    textBoxP={textBoxP} imageHeight={imageHeight} fontFamily={fontFamily}
+                    fontSize={settings.isMobile ? '4rem' : fontSize}
+                    fontWeight={fontWeight} onClick={() => navigate('/' + albumKey)} key={albumKey} 
+                    lineHeight={settings.isMobile ? '5rem' : '8rem'} />
             ))}
         </Box>
     );

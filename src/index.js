@@ -4,13 +4,17 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import MyRouter from './myrouter';
 import { SettingsProvider } from './settings';
+import { ThemeProvider } from '@emotion/react';
+import { createTheme } from '@mui/material/styles';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <SettingsProvider>
-            <MyRouter />
+            <ThemeProvider theme={createTheme()}>
+                <MyRouter />
+            </ThemeProvider>
         </SettingsProvider>
     </React.StrictMode>
 );
