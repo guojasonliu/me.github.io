@@ -10,7 +10,7 @@ https://www.mackeveland.com/
 https://www.alexiasaigh.com/
 
 
-
+npm run deploy
 
 
 

@@ -11,24 +11,26 @@ function AboutPage()
     const settings = useContext(SettingsContext);
 
     return (
-        <div>
+        <Box display="flex" flexDirection="column" minHeight="100vh">
             <AppBar barPosition='static' bgColorAtTop='white' colorAtTop='black' bgColorNotTop='white'
                 colorNotTop='black' visibilityNotTop='hidden' />
             <Box display='flex' justifyContent='space-between' alignItems='center' width='100%'>
-                <Box flex={1}>
-                    <img src={settings.aboutImage} alt='' style={{ width: '100%' }} />
+                <Box flex={1}  padding='2rem'>
+                    <img src={settings.aboutImage} alt='' style={{ width: '100%' }} onContextMenu={(e) => e.preventDefault()} />
                 </Box>
-                <Box flex={1} paddingLeft='2rem'>
-                    <Typography variant='h4' paddingBottom='1rem'>
+                <Box flex={1} alignItems='flex-start'>
+                    <Typography variant='h4' paddingBottom='1rem' fontFamily='Arapey' align='center'>
                         About Jason
                     </Typography>
-                    <Typography variant='body1' style={{ whiteSpace: 'pre-line', lineHeight: '2rem' }}>
+                    <Typography variant='body1' style={{ whiteSpace: 'pre-line', lineHeight: '1.5rem' }}
+                        fontFamily='Garamond' align='center'>
                         {settings.aboutText}
                     </Typography>
                 </Box>
             </Box>
+            <Box flexGrow={1} flex={1} />
             <Footer />
-        </div>
+        </Box>
     );
 }
 

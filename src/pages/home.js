@@ -5,6 +5,7 @@ import HomeFeaturedAlbums from '../components/home-featured-albums';
 import Box from '@mui/material/Box';
 import Footer from '../components/footer';
 import { SettingsContext } from '../settings';
+import NameLogo from '../components/name-logo';
 
 
 function HomePage()
@@ -12,8 +13,9 @@ function HomePage()
     const settings = useContext(SettingsContext);
     
     return (
-        <div>
+        <Box display="flex" flexDirection="column" minHeight="100vh">
             <AppBar />
+            <NameLogo />
             <header className='container'>
                 <Box style={{ filter: 'brightness(80%)' }}>
                     <Carousel images={settings.homeBackgroundImages} showStepper={true} interval={5000} />
@@ -23,7 +25,7 @@ function HomePage()
                 <HomeFeaturedAlbums />
             </section>
             <Footer />
-        </div>
+        </Box>
     );
   };
   

@@ -38,8 +38,13 @@ function Carousel({ images=[], enableMouseEvents=false, interval=5000, showStepp
                 {images.map((step, index) => (
                     <div key={step}>
                         {Math.abs(activeStep - index) <= 2 ? (
-                            <Box component='img' src={step} alt='' sx={{ height: '100vh', display: 'block', 
-                                width: '100%', overflow: 'hidden', objectFit: 'cover', objectPosition: 'center' }} />
+                            <div>
+                                <Box component='img' src={step} alt='' sx={{ height: '100vh', display: 'block', 
+                                    width: '100%', overflow: 'hidden', objectFit: 'cover', objectPosition: 'center' }}
+                                    onContextMenu={(e) => e.preventDefault()} />
+                                <div style={{ position: 'absolute', top: 0, left: 0, width: '100%',
+                                    height: '100%', backgroundColor: 'rgba(0,0,0,0)' }} />
+                            </div>
                         ) : null}
                     </div>
                 ))}

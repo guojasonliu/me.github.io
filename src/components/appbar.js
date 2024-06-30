@@ -76,16 +76,20 @@ function AppBar({ enableTopTransparent=true, barPosition='fixed', bgColorAtTop='
         const onScroll = () =>
         {
             if (appBar != null)
-                if (enableTopTransparent && window.scrollY === 0)
+                if (enableTopTransparent && window.scrollY <= 16)
                 {
                     appBar.style.backgroundColor = bgColorAtTop;
                     appBar.style.color = colorAtTop;
+                    appBar.style.paddingTop = '1.5rem';
+                    appBar.style.paddingBottom = '1.5rem';
                     flexBoxLeft.style.visibility = visibilityAtTop;
                 }
                 else
                 {
                     appBar.style.backgroundColor = bgColorNotTop;
                     appBar.style.color = colorNotTop;
+                    appBar.style.paddingTop = '0.5rem';
+                    appBar.style.paddingBottom = '0.5rem';
                     flexBoxLeft.style.visibility = visibilityNotTop;
                 }
         };
@@ -101,7 +105,7 @@ function AppBar({ enableTopTransparent=true, barPosition='fixed', bgColorAtTop='
     
     return (
         <MuiAppBar id='app-bar' elevation={0} position={barPosition}
-            sx={{ backgroundColor: bgColorAtTop, color: colorAtTop, padding: '0.5rem' }}>
+            sx={{ backgroundColor: bgColorAtTop, color: colorAtTop, padding: '1.5rem' }}>
             <MuiToolbar sx={{ justifyContent: 'space-between' }}>
                 <Box id='flex-box-left' visibility={visibilityAtTop} flex={1}>
                     <Link href='/' underline='none' variant='h4' color='inherit' fontFamily={FONT_FAMILY}>

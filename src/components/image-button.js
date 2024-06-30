@@ -60,7 +60,7 @@ const ImageBackdrop = styled('span')(({ theme }) => ({
 }));
 
 function ImageButton({ text, image, textBoxP='5rem', imageHeight='5rem', onClick=(() => {}),
-    fontFamily='', fontSize='20', fontWeight='' })
+    fontFamily='', fontSize='20', fontWeight='', lineHeight='' })
 {
     return (
         <ImageButtonBase focusRipple key={text} style={{ height: imageHeight }} onClick={onClick}>
@@ -70,7 +70,7 @@ function ImageButton({ text, image, textBoxP='5rem', imageHeight='5rem', onClick
                 <Typography component='span' variant='subtitle1' color='inherit'
                     sx={{ position: 'relative', p: textBoxP == null ? '20rem' : textBoxP,
                     pt: 2, pb: (theme) => `calc(${theme.spacing(1)} + 6px)`, fontFamily: fontFamily,
-                    fontSize: fontSize, fontWeight: fontWeight }}>
+                    fontSize: fontSize, fontWeight: fontWeight, lineHeight: lineHeight }}>
                     {text}
                 </Typography>
             </Image>

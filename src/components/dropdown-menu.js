@@ -1,13 +1,16 @@
+import { useContext } from 'react';
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem, { menuItemClasses } from '@mui/material/MenuItem';
 import { useTheme } from '@mui/material/styles';
 import { useNavigate } from "react-router-dom";
+import { SettingsContext } from '../settings';
 
 
 function DropdownMenu({ label='', albums=[], leftMargin='3rem', rightMargin='1rem', fontFamily='Arapey' })
 {
+    const settings = useContext(SettingsContext);
     const [anchorEl, setAnchorEl] = React.useState(null);
     const theme = useTheme();
     const navigate = useNavigate();
@@ -29,8 +32,8 @@ function DropdownMenu({ label='', albums=[], leftMargin='3rem', rightMargin='1re
         navigate(albumLink);
     }
 
-    const menuItems = albums.map((item) => (
-        <MenuItem key={item.albumLink} onClick={() => onAlbumClicked(item.albumLink)}>{ item.name }</MenuItem>
+    const menuItems = albums.map((albumKey) => (
+        <MenuItem key={albumKey} onClick={() => onAlbumClicked('/' + albumKey)}>{ settings.albums[albumKey].albumName }</MenuItem>
     ));
 
     return (

@@ -14,7 +14,7 @@ function ContactPage()
     const settings = useContext(SettingsContext);
 
     return (
-        <div>
+        <Box display="flex" flexDirection="column" minHeight="100vh">
             <AppBar barPosition='static' bgColorAtTop='white' colorAtTop='black' bgColorNotTop='white'
                 colorNotTop='black' visibilityNotTop='hidden' />
             <Box display='flex' justifyContent='space-between' alignItems='center' width='100%' padding='2rem'>
@@ -41,7 +41,7 @@ function ContactPage()
                 <img src={settings.contactImage} alt='' style={{ width: '100%' }} />
             </Box>
             <Footer />
-        </div>
+        </Box>
     );
 }
 
