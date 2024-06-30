@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import Carousel from '../components/carousel';
 import AppBar from '../components/appbar';
 import HomeFeaturedAlbums from '../components/home-featured-albums';

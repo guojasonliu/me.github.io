@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useEffect, useState, useContext } from 'react';
+import { useContext } from 'react';
 import Box from '@mui/material/Box';
 import ImageButton from './image-button';
 import { SettingsContext } from '../settings';

@@ -1,4 +1,4 @@
-import { useEffect, useState, useContext } from 'react';
+import { useContext } from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import AppBar from '../components/appbar';
@@ -35,7 +35,7 @@ function AlbumPage()
     const album = settings.albums[albumKey];
 
     let imageList = '';
-    if (album.imageListType == 'quilted')
+    if (album.imageListType === 'quilted')
     {
         imageList = (
             <ImageList sx={{ width: '100%', height: '100%' }} variant='quilted' cols={12}>
@@ -50,7 +50,7 @@ function AlbumPage()
             </ImageList>
         );
     }
-    else if(album.imageListType == 'standard')
+    else if(album.imageListType === 'standard')
     {
         imageList = (
             <ImageList sx={{ width: '100%', height: '100%' }} cols={3}>
@@ -66,7 +66,7 @@ function AlbumPage()
             </ImageList>
         );
     }
-    else if(album.imageListType == 'masonry')
+    else if(album.imageListType === 'masonry')
     {
         imageList = (
             <ImageList variant='masonry' cols={3} gap={8} sx={{ width: '100%', height: '100%' }}>

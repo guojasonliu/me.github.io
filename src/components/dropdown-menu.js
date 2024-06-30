@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
-import MenuItem, { menuItemClasses } from '@mui/material/MenuItem';
+import MenuItem from '@mui/material/MenuItem';
 import { useTheme } from '@mui/material/styles';
 import { useNavigate } from "react-router-dom";
 import { SettingsContext } from '../settings';
@@ -33,7 +33,7 @@ function DropdownMenu({ label='', albums=[], leftMargin='3rem', rightMargin='1re
     }
 
     const menuItems = albums.map((albumKey) => (
-        settings.albums[albumKey] == undefined ? <div></div> : 
+        settings.albums[albumKey] === undefined ? <div></div> : 
         <MenuItem key={albumKey} onClick={() => onAlbumClicked('/' + albumKey)}>{ settings.albums[albumKey].albumName }</MenuItem>
     ));
 

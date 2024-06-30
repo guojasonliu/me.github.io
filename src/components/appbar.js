@@ -28,7 +28,7 @@ function parseTabs2HTML(tabs)
     const tabsHTML = [];
     for (let tab of tabs)
     {
-        if (tab.type == 'button')
+        if (tab.type === 'button')
         {
             tabsHTML.push(
                 <Link key={tab.label} variant='h6' underline='none' color='inherit' onClick={tab.onClick} tabIndex={0}
@@ -38,7 +38,7 @@ function parseTabs2HTML(tabs)
                 </Link>
             );
         }
-        else if (tab.type == 'link')
+        else if (tab.type === 'link')
         {
             tabsHTML.push(
                 <Link key={tab.label} variant='h6' underline='none' color='inherit' href={tab.link}
@@ -48,7 +48,7 @@ function parseTabs2HTML(tabs)
                 </Link>
             );
         }
-        else if (tab.type == 'dropdown')
+        else if (tab.type === 'dropdown')
         {
             tabsHTML.push(
                 <DropdownMenu key={tab.label} label={tab.label} leftMargin={LEFT_MARGIN} rightMargin={RIGHT_MARGIN}
@@ -98,7 +98,7 @@ function AppBar({ enableTopTransparent=true, barPosition='fixed', bgColorAtTop='
         {
             window.removeEventListener('scroll', onScroll);
         };
-    }, []);
+    }, [bgColorAtTop, bgColorNotTop, colorAtTop, colorNotTop, enableTopTransparent, visibilityAtTop, visibilityNotTop]);
 
 
     const tabsRightHTML = parseTabs2HTML(TABS_RIGHT);
