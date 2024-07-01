@@ -59,7 +59,9 @@ function parseTabs2HTML(tabs)
     return tabsHTML;
 }
 
-function AppBar({ barPosition = 'fixed', bgColorAtTop = 'transparent', colorAtTop = 'white', visibilityAtTop = 'hidden', bgColorNotTop = 'white', colorNotTop = 'black', visibilityNotTop = 'visible' })
+function AppBar({ barPosition = 'fixed', bgColorAtTop = 'transparent', colorAtTop = 'white',
+    visibilityAtTop = 'hidden', bgColorNotTop = 'white', colorNotTop = 'black', visibilityNotTop = 'visible',
+    visibilityNameLogoAtTop = 'visible', visibilityNameLogoNotTop = 'hidden'})
 {
     const settings = useContext(SettingsContext);
     portofolioAlbums = settings.appbarPortofolioAlbums;
@@ -72,7 +74,7 @@ function AppBar({ barPosition = 'fixed', bgColorAtTop = 'transparent', colorAtTo
         paddingBottom: '1.5rem'
     });
     const [leftBoxVisibility, setLeftBoxVisibility] = useState(visibilityAtTop);
-    const [nameLogoVisibility, setNameLogoVisibility] = useState(visibilityAtTop === 'hidden' ? 'visible' : 'hidden');
+    const [nameLogoVisibility, setNameLogoVisibility] = useState(visibilityNameLogoAtTop);
     const [mobileTabsIconColor, setMobileTabsIconColor] = useState(colorAtTop);
 
     useEffect(() => {
@@ -87,7 +89,7 @@ function AppBar({ barPosition = 'fixed', bgColorAtTop = 'transparent', colorAtTo
                     paddingBottom: '1.5rem'
                 });
                 setLeftBoxVisibility(visibilityAtTop);
-                setNameLogoVisibility(visibilityAtTop === 'hidden' ? 'visible' : 'hidden');
+                setNameLogoVisibility(visibilityNameLogoAtTop);
                 setMobileTabsIconColor(colorAtTop);
             }
             else
@@ -100,7 +102,7 @@ function AppBar({ barPosition = 'fixed', bgColorAtTop = 'transparent', colorAtTo
                     paddingBottom: '0.5rem'
                 });
                 setLeftBoxVisibility(visibilityNotTop);
-                setNameLogoVisibility(visibilityNotTop === 'hidden' ? 'visible' : 'hidden');
+                setNameLogoVisibility(visibilityNameLogoNotTop);
                 setMobileTabsIconColor(colorNotTop);
             }
         };
@@ -108,16 +110,17 @@ function AppBar({ barPosition = 'fixed', bgColorAtTop = 'transparent', colorAtTo
         return () => {
             window.removeEventListener('scroll', onScroll);
         };
-    }, [bgColorAtTop, bgColorNotTop, colorAtTop, colorNotTop, visibilityAtTop, visibilityNotTop]);
+    }, [bgColorAtTop, bgColorNotTop, colorAtTop, colorNotTop, visibilityAtTop, visibilityNotTop, visibilityNameLogoAtTop, visibilityNameLogoNotTop]);
 
     const tabsRightHTML = parseTabs2HTML(TABS_RIGHT);
 
     return (
         <MuiAppBar id='app-bar' elevation={0} position={barPosition} sx={appBarStyles}>
-            <NameLogo visibility={nameLogoVisibility} />
+            <NameLogo visibility={nameLogoVisibility} width={settings.isMobile ? '9.66rem' : '19.32rem'}
+                height={settings.isMobile ? '2rem' : '4rem'}/>
             <MuiToolbar sx={{ justifyContent: 'space-between' }}>
                 <Box id='flex-box-left' sx={{ visibility: leftBoxVisibility }} flex={1}>
-                    <Link href='/' underline='none' variant='h4' color='inherit' fontFamily={FONT_FAMILY}>
+                    <Link href='/' underline='none' variant={settings.isMobile ? 'h5' : 'h4'} color='inherit' fontFamily={FONT_FAMILY}>
                         Guo Jason Liu
                     </Link>
                 </Box>

@@ -14,13 +14,13 @@ function HomeFeaturedAlbums()
     return (
         <Box flexDirection='column' 
             sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            {settings.homeFeaturedAlbums.map(({ albumKey, textBoxP, imageHeight, fontFamily, fontSize, fontWeight }) =>
+            {settings.homeFeaturedAlbums.map(({ albumKey, textBoxP, imageHeight, fontFamily, fontWeight }) =>
             (
                 <ImageButton image={settings.albums[albumKey].image} text={settings.albums[albumKey].albumName}
                     textBoxP={textBoxP} imageHeight={imageHeight} fontFamily={fontFamily}
-                    fontSize={settings.isMobile ? '4rem' : fontSize}
+                    fontSize={settings.isMobile ? '3rem' : '5rem'}
                     fontWeight={fontWeight} onClick={() => navigate('/' + albumKey)} key={albumKey} 
-                    lineHeight={settings.isMobile ? '5rem' : '8rem'} />
+                    lineHeight={settings.isMobile ? '4rem' : '8rem'} />
             ))}
         </Box>
     );

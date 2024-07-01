@@ -16,11 +16,11 @@ function ContactPage()
     return (
         <Box display="flex" flexDirection="column" minHeight="100vh">
             <AppBar barPosition='static' bgColorAtTop='white' colorAtTop='black' bgColorNotTop='white'
-                colorNotTop='black' visibilityNotTop='hidden' />
+                colorNotTop='black' visibilityNotTop='hidden' visibilityNameLogoAtTop='hidden' />
             <Box display='flex' justifyContent='space-between' alignItems='center' padding='2rem'
                 flexDirection={settings.isMobile ? 'column' : 'row'}>
                 <Box flex={1} display='flex' flexDirection='column' alignItems='center' justifyContent='center'>
-                    <Typography variant='h3' align='center' padding='2rem' sx={{ fontWeight: 'bold' }}>
+                    <Typography variant={settings.isMobile ? 'h4' : 'h3'} align='center' padding='2rem' sx={{ fontWeight: 'bold' }}>
                         Contact Me
                     </Typography>
                     <Button variant='outlined' onClick={() => window.location.href = `mailto:${MY_EMAIL}`}

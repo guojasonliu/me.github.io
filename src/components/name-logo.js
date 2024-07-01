@@ -6,15 +6,14 @@ const OverlappingImage = styled('img')(
     position: 'absolute',
     paddingLeft: '3rem',
     paddingTop: '0.5rem',
-    width: '19rem',
-    height: '4rem',
     zIndex: 1
 });
 
-function NameLogo({ visibility='visible' })
+function NameLogo({ visibility='visible', width='19rem', height='4rem' })
 {
     return (
-        <OverlappingImage id='name-logo' src='/assets/name-logo.png' alt='' sx={{ visibility: visibility }} />
+        <OverlappingImage id='name-logo' src='/assets/name-logo.png' alt=''
+            sx={{ visibility: visibility, width: width, height: height }} />
     );
 }
 
