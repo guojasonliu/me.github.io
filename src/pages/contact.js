@@ -39,7 +39,10 @@ function ContactPage()
                 </Box>
             </Box>
             <Box flex={1} padding='2rem'>
-                <img src={settings.contactImage} alt='' style={{ maxWidth: '100%' }} onContextMenu={(e) => e.preventDefault()} />
+                <Box position="relative">
+                    <img src={settings.contactImage} alt='' style={{ maxWidth: '100%' }} onContextMenu={(e) => e.preventDefault()} />
+                    <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0)' }} />
+                </Box>
             </Box>
             <Footer />
         </Box>
