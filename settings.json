@@ -20,6 +20,8 @@
     "aboutImage": "/assets/P1010213.JPG",
     "aboutText": "I take photos!",
     "gallery": [
+        { "albumKey": "still-over-it", "lineHeight": "" },
+        { "albumKey": "july4th-2024", "lineHeight": "" },
         { "albumKey": "green-home", "lineHeight": "4rem" },
         { "albumKey": "s-class", "lineHeight": "" },
         { "albumKey": "fishers", "lineHeight": "4rem" },
@@ -46,6 +48,59 @@
     ],
     "contactImage": "/assets/IMG_5074.jpg",
     "albums": {
+        "still-over-it": {
+            "albumName": "Still Over It", "image": "/assets/albums/still-over-it/IMG_0363-2.jpg",
+            "imageListType": "quilted",
+            "secondaryText": "",
+            "tertiaryText": "Shot on July 22, 2024 at Manhattan Beach, CA",
+            "imageData": [
+                { "img": "/assets/albums/still-over-it/IMG_0345.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/still-over-it/IMG_0346.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/still-over-it/IMG_0347.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0348.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0351.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0352.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0355.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/still-over-it/IMG_0357.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/still-over-it/IMG_0359.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/still-over-it/IMG_0365.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0363-2.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0367.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0368.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0353.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0374.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0381.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0383.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/still-over-it/IMG_0360-2.jpg", "rows": 1, "cols": 12 }
+            ]
+        },
+        "july4th-2024": {
+            "albumName": "July 4th", "image": "/assets/albums/july4th-2024/IMG_0327-2.jpg",
+            "imageListType": "quilted",
+            "secondaryText": "",
+            "tertiaryText": "Shot on July 4, 2024 at Marina Del Rey, CA",
+            "imageData": [
+                { "img": "/assets/albums/july4th-2024/IMG_0076.jpg", "rows": 1, "cols": 2 },
+                { "img": "/assets/albums/july4th-2024/IMG_0077.jpg", "rows": 1, "cols": 2 },
+                { "img": "/assets/albums/july4th-2024/IMG_0083.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/july4th-2024/IMG_0095.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/july4th-2024/IMG_0107.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/july4th-2024/IMG_0112.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/july4th-2024/IMG_0115.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/july4th-2024/IMG_0135.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/july4th-2024/IMG_0146.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/july4th-2024/IMG_0165.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/july4th-2024/IMG_0163.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/july4th-2024/IMG_0208.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/july4th-2024/IMG_0223.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/july4th-2024/IMG_0214-3.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/july4th-2024/IMG_0225.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/july4th-2024/IMG_0244.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/july4th-2024/IMG_0277-2.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/july4th-2024/IMG_0310-2.jpg", "rows": 1, "cols": 3 },
+                { "img": "/assets/albums/july4th-2024/IMG_0327-2.jpg", "rows": 1, "cols": 9 }
+            ]
+        },
         "green-home": {
             "albumName": "The Green Home", "image": "/assets/albums/green-home/IMG_8917.jpg",
             "imageListType": "quilted",
@@ -111,7 +166,7 @@
         },
         "interns": {
             "albumName": "Interns", "image": "/assets/albums/interns/IMG_7944.jpg",
-            "imageListType": "quilted", "secondaryText": "Who's the hottest?", "tertiaryText": "Shot on May 6, 2024 at Gayley Heights, LA",
+            "imageListType": "quilted", "secondaryText": "", "tertiaryText": "Shot on May 6, 2024 at Gayley Heights, LA",
             "imageData": [
                 { "img": "/assets/albums/interns/IMG_7925.jpg", "rows": 1, "cols": 7 },
                 { "img": "/assets/albums/interns/IMG_7933.jpg", "rows": 1, "cols": 5 },
