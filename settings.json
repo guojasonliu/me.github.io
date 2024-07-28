@@ -51,7 +51,7 @@
         "still-over-it": {
             "albumName": "Still Over It", "image": "/assets/albums/still-over-it/IMG_0363-2.jpg",
             "imageListType": "quilted",
-            "secondaryText": "",
+            "secondaryText": "We're like a sandstorm, it was all too easy",
             "tertiaryText": "Shot on July 22, 2024 at Manhattan Beach, CA",
             "imageData": [
                 { "img": "/assets/albums/still-over-it/IMG_0345.jpg", "rows": 1, "cols": 8 },
@@ -77,7 +77,7 @@
         "july4th-2024": {
             "albumName": "July 4th", "image": "/assets/albums/july4th-2024/IMG_0327-2.jpg",
             "imageListType": "quilted",
-            "secondaryText": "",
+            "secondaryText": "Happy firecrackers cracks at midnight, lonely officeworkers work in daylight",
             "tertiaryText": "Shot on July 4, 2024 at Marina Del Rey, CA",
             "imageData": [
                 { "img": "/assets/albums/july4th-2024/IMG_0076.jpg", "rows": 1, "cols": 2 },
@@ -148,7 +148,7 @@
         "fishers": {
             "albumName": "Fishermen & Fisherbirds", "image": "/assets/albums/fishers/IMG_8158.jpg",
             "imageListType": "quilted",
-            "secondaryText": "Winner winner fishing dinner",
+            "secondaryText": "Smells fishy",
             "tertiaryText": "Shot on May 12, 2024 at Marina Del Rey, CA",
             "imageData": [
                 { "img": "/assets/albums/fishers/IMG_8158.jpg", "rows": 1, "cols": 7 },
@@ -166,7 +166,9 @@
         },
         "interns": {
             "albumName": "Interns", "image": "/assets/albums/interns/IMG_7944.jpg",
-            "imageListType": "quilted", "secondaryText": "", "tertiaryText": "Shot on May 6, 2024 at Gayley Heights, LA",
+            "imageListType": "quilted",
+            "secondaryText": "",
+            "tertiaryText": "Shot on May 6, 2024 at Gayley Heights, LA",
             "imageData": [
                 { "img": "/assets/albums/interns/IMG_7925.jpg", "rows": 1, "cols": 7 },
                 { "img": "/assets/albums/interns/IMG_7933.jpg", "rows": 1, "cols": 5 },
