@@ -7,7 +7,7 @@ import Footer from '../components/footer';
 import { SettingsContext } from '../settings';
 
 
-const MY_EMAIL = 'guojasonliu@gmail.com';
+const MY_EMAIL = 'guojasonliu [at] gmail.com';
 
 function ContactPage()
 {
