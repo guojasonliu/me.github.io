@@ -1,6 +1,6 @@
 {
     "appbarPortofolioAlbums": [
-        "s-class", "interns", "venice-heartbreaks", "refine-la-2024", "point-hope", "old-friends", "shanxi-2023", "trios"
+        "s-class", "interns", "refine-la-2024", "far-away", "summer-walker", "old-friends", "shanxi-2023", "trios"
     ],
     "homeBackgroundImages": [
         "/assets/IMG_0404.jpg",
@@ -46,9 +46,9 @@
         { "albumKey": "venice-heartbreaks", "lineHeight": "4rem" },
         { "albumKey": "refine-la-2024", "lineHeight": "4rem" },
         { "albumKey": "tsunami", "lineHeight": "" },
-        { "albumKey": "point-hope", "lineHeight": "" },
+        { "albumKey": "point-hope", "lineHeight": "", "disabled": true },
         { "albumKey": "japanese-garden", "lineHeight": "4rem", "disabled": true },
-        { "albumKey": "seaset", "lineHeight": "" },
+        { "albumKey": "seaset", "lineHeight": "", "disabled": true },
         { "albumKey": "christmas-dive", "lineHeight": "4rem" },
         { "albumKey": "old-friends", "lineHeight": "4rem" },
         { "albumKey": "dream-sails", "lineHeight": "", "disabled": true },
