@@ -1,6 +1,6 @@
 {
     "appbarPortofolioAlbums": [
-        "s-class", "interns", "refine-la-2024", "far-away", "summer-walker", "old-friends", "shanxi-2023", "trios"
+        "issahit", "s-class", "refine-la-2024", "far-away", "summer-walker", "old-friends", "shanxi-2023", "trios"
     ],
     "homeBackgroundImages": [
         "/assets/IMG_0404.jpg",
@@ -18,20 +18,21 @@
         "/assets/IMG_5074.jpg"
     ],
     "homeFeaturedAlbums": [
+        { "albumKey": "issahit", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "far-away", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "summer-walker", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "fishers", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "melancholic-alcoholic", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "refine-la-2024", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "old-friends", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
-        { "albumKey": "shanxi-2023", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
-        { "albumKey": "kyoto-2023", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" }
+        { "albumKey": "shanxi-2023", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" }
     ],
     "aboutImage": "/assets/P1010213.JPG",
     "aboutText": "I take photos!",
     "gallery": [
         { "albumKey": "hikers-spies-dads", "lineHeight": "4rem" },
         { "albumKey": "pink-beaches-yellow-sand", "lineHeight": "4rem" },
+        { "albumKey": "issahit", "lineHeight": "" },
         { "albumKey": "metro-prayers", "lineHeight": "4rem" },
         { "albumKey": "nanjing-2024", "lineHeight": "4rem" },
         { "albumKey": "anji-2024", "lineHeight": "" },
@@ -135,6 +136,36 @@
                 { "img": "/assets/albums/pink-beaches-yellow-sand/856A9995.jpg", "rows": 1, "cols": 6 },
                 { "img": "/assets/albums/pink-beaches-yellow-sand/856A9998.jpg", "rows": 1, "cols": 6 },
                 { "img": "/assets/albums/pink-beaches-yellow-sand/856A0005.jpg", "rows": 1, "cols": 6 }
+            ]
+        },
+        "issahit": {
+            "albumName": "Issa Hit", "image": "/assets/albums/issahit/856A9724.jpg",
+            "imageListType": "quilted",
+            "secondaryText": "",
+            "tertiaryText": "Shot on Nov 24, 2024 at some parking lot in LA Art District",
+            "imageData": [
+                { "img": "/assets/albums/issahit/856A9411.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9456.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9497.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9574.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9584.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/issahit/856A9602.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/issahit/856A9626.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/issahit/856A9641.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/issahit/856A9653.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/issahit/856A9645.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/issahit/856A9615.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9657.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9709.jpg", "rows": 1, "cols": 4 },
+                { "img": "/assets/albums/issahit/856A9724.jpg", "rows": 1, "cols": 8 },
+                { "img": "/assets/albums/issahit/856A9742.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9754.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9797.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9806.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9779.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9889-2.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9861.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/issahit/856A9758.jpg", "rows": 1, "cols": 6 }
             ]
         },
         "metro-prayers": {
