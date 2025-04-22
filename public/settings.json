@@ -37,6 +37,7 @@
         { "albumKey": "bgp", "lineHeight": "4rem" },
         { "albumKey": "tbd", "lineHeight": "" },
         { "albumKey": "botanical-garden", "lineHeight": "4rem" },
+        { "albumKey": "seaside", "lineHeight": "" },
         { "albumKey": "niseko-2025", "lineHeight": "4rem" },
         { "albumKey": "lover-birds-and-single-dogs", "lineHeight": "4rem" },
         { "albumKey": "tokyo-2025", "lineHeight": "4rem" },
@@ -254,6 +255,34 @@
                 { "img": "/assets/albums/botanical-garden/856A1312.jpg", "rows": 1, "cols": 6 },
                 { "img": "/assets/albums/botanical-garden/856A1319.jpg", "rows": 1, "cols": 6 },
                 { "img": "/assets/albums/botanical-garden/856A1321.jpg", "rows": 1, "cols": 6 }
+            ]
+        },
+        "seaside": {
+            "albumName": "Seaside", "image": "/assets/albums/seaside/856A0707.jpg",
+            "imageListType": "quilted",
+            "secondaryText": "",
+            "tertiaryText": "Shot on Jan 13, 2025 at Newport Beach, CA",
+            "imageData": [
+                { "img": "/assets/albums/seaside/856A0707.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0714.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0716.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0719.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0731.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0741.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0743.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0744-2.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0755.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0760.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0766.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0779.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0787.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0795.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0810.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0854.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0859.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0861.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0867.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/seaside/856A0868.jpg", "rows": 1, "cols": 6 }
             ]
         },
         "niseko-2025": {
