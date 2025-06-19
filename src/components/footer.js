@@ -13,7 +13,7 @@ function Footer()
         <Box display='flex' justifyContent='space-between' alignItems='center' width='100%'
             bottom='0' paddingTop='0.5rem' paddingBottom='1rem'>
             <Typography variant='body2' paddingLeft='2rem' fontFamily='Arapey' fontSize='1rem'>
-                Copyright © 2024 Guo (Jason) Liu
+                Copyright © 2025 Guo (Jason) Liu
             </Typography>
             <Box paddingRight='1rem'>
                 <IconButton component='a' href={FACEBOOK_LINK} target='_blank'
