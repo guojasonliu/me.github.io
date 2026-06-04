@@ -18,6 +18,7 @@
         "/assets/IMG_5074.jpg"
     ],
     "homeFeaturedAlbums": [
+        { "albumKey": "point-reyes", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "mt-tamalpais", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "lake-superior", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "yuyuantan", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
@@ -25,7 +26,6 @@
         { "albumKey": "issahit", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "far-away", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "summer-walker", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
-        { "albumKey": "fishers", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "melancholic-alcoholic", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "refine-la-2024", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" },
         { "albumKey": "shanxi-2023", "textBoxP": "8rem", "imageHeight": "38rem", "fontFamily": "Arapey", "fontWeight": "regular" }
@@ -33,6 +33,7 @@
     "aboutImage": "/assets/P1010213.JPG",
     "aboutText": "I take photos!",
     "gallery": [
+        { "albumKey": "point-reyes", "lineHeight": "4rem" },
         { "albumKey": "pr-2026", "lineHeight": "4rem" },
         { "albumKey": "mt-tamalpais", "lineHeight": "4rem" },
         { "albumKey": "lake-superior", "lineHeight": "4rem" },
@@ -86,6 +87,40 @@
     ],
     "contactImage": "/assets/IMG_5074.jpg",
     "albums": {
+        "point-reyes": {
+            "albumName": "Point Reyes", "image": "/assets/albums/point-reyes/856A5513.jpg",
+            "imageListType": "quilted",
+            "secondaryText": "",
+            "tertiaryText": "Shot on May 31, 2026 at Point Reyes, CA",
+            "imageData": [
+                { "img": "/assets/albums/point-reyes/856A5393.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5399.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5422.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5430.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5440.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5446.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5460.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5467.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5472.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5477.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5480.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5490.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5505.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5511.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5513.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5525.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5532.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5575.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5540.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5555.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5560.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5563.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5568.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5573.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5581.jpg", "rows": 1, "cols": 6 },
+                { "img": "/assets/albums/point-reyes/856A5582.jpg", "rows": 1, "cols": 6 }
+            ]
+        },
         "pr-2026": {
             "albumName": "Puerto Rico 2026", "image": "/assets/albums/pr-2026/856A5352.jpg",
             "imageListType": "quilted",
