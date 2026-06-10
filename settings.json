@@ -198,7 +198,7 @@
         "lake-superior": {
             "albumName": "Lake Superior", "image": "/assets/albums/lake-superior/856A3673.jpg",
             "imageListType": "quilted",
-            "secondaryText": "Lake Superior, but Michael's ass is more superior.\nSome credit goes to Miguel, whose love for short videos is so great that he forgot to go to his Spanish class.",
+            "secondaryText": "",
             "tertiaryText": "Shot on Jun 14 - 15, 2025 at Duluth, Two Harbors, MN",
             "imageData": [
                 { "img": "/assets/albums/lake-superior/856A3239.jpg", "rows": 1, "cols": 6 },
@@ -529,7 +529,7 @@
         "bgp": {
             "albumName": "BGP", "image": "/assets/albums/bgp/856A1684.jpg",
             "imageListType": "quilted",
-            "secondaryText": "Border Gateway Protocol",
+            "secondaryText": "",
             "tertiaryText": "Shot on Mar 21, 2025 at Thai Town, LA",
             "imageData": [
                 { "img": "/assets/albums/bgp/856A1669.jpg", "rows": 1, "cols": 6 },
@@ -638,7 +638,7 @@
         "niseko-2025": {
             "albumName": "Pre-ski Niseko 2025", "image": "/assets/albums/niseko-2025/856A0691.jpg",
             "imageListType": "quilted",
-            "secondaryText": "Get ready",
+            "secondaryText": "",
             "tertiaryText": "Shot on Jan 3, 2025 at Niseko, Japan",
             "imageData": [
                 { "img": "/assets/albums/niseko-2025/856A0690.jpg", "rows": 1, "cols": 6 },
@@ -781,7 +781,7 @@
         "kamakura-2024": {
             "albumName": "Kamakura 2024", "image": "/assets/albums/kamakura-2024/856A0346.jpg",
             "imageListType": "quilted",
-            "secondaryText": "See you once again",
+            "secondaryText": "",
             "tertiaryText": "Shot on Dec 31, 2024 at Kamakura, Japan",
             "imageData": [
                 { "img": "/assets/albums/kamakura-2024/856A0199.jpg", "rows": 1, "cols": 6 },
@@ -1082,7 +1082,7 @@
         "far-away": {
             "albumName": "Far Away", "image": "/assets/albums/far-away/IMG_0579.jpg",
             "imageListType": "quilted",
-            "secondaryText": "I'd be there soon",
+            "secondaryText": "",
             "tertiaryText": "Shot on Aug 26-27, 2024 at Long Island, NY",
             "imageData": [
                 { "img": "/assets/albums/far-away/IMG_0496.jpg", "rows": 1, "cols": 6 },
@@ -1168,7 +1168,7 @@
         "still-over-it": {
             "albumName": "Still Over It", "image": "/assets/albums/still-over-it/IMG_0363-2.jpg",
             "imageListType": "quilted",
-            "secondaryText": "We're like a sandstorm, it was all too easy",
+            "secondaryText": "",
             "tertiaryText": "Shot on July 22, 2024 at Manhattan Beach, CA",
             "imageData": [
                 { "img": "/assets/albums/still-over-it/IMG_0345.jpg", "rows": 1, "cols": 8 },
@@ -1194,7 +1194,7 @@
         "july4th-2024": {
             "albumName": "July 4th", "image": "/assets/albums/july4th-2024/IMG_0327-2.jpg",
             "imageListType": "quilted",
-            "secondaryText": "Happy firecrackers cracks at midnight, lonely officeworkers work in daylight",
+            "secondaryText": "",
             "tertiaryText": "Shot on July 4, 2024 at Marina Del Rey, CA",
             "imageData": [
                 { "img": "/assets/albums/july4th-2024/IMG_0076.jpg", "rows": 1, "cols": 2 },
@@ -1221,7 +1221,7 @@
         "green-home": {
             "albumName": "The Green Home", "image": "/assets/albums/green-home/IMG_8917.jpg",
             "imageListType": "quilted",
-            "secondaryText": "Traveling back to the home of greenness and recovery",
+            "secondaryText": "",
             "tertiaryText": "Shot on May 26-27, 2024 at Philadelphia, PA",
             "imageData": [
                 { "img": "/assets/albums/green-home/IMG_8917.jpg", "rows": 1, "cols": 8 },
@@ -1417,7 +1417,7 @@
         "point-hope": {
             "albumName": "Point Hope", "image": "/assets/albums/point-hope/IMG_4842.jpg",
             "imageListType": "quilted",
-            "secondaryText": "Point hope? Point, hope",
+            "secondaryText": "",
             "tertiaryText": "Shot on February 18-20, 2024 at San Diego, CA",
             "imageData": [
                 { "img": "/assets/albums/point-hope/IMG_4831.jpg", "rows": 1, "cols": 8 },
