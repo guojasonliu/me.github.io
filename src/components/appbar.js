@@ -14,7 +14,7 @@ const FONT_FAMILY = 'Arapey';
 const TABS_RIGHT = [
     { 'label': 'Home', 'type': 'link', 'link': '/' },
     { 'label': 'About', 'type': 'link', 'link': '/about' },
-    { 'label': 'Portofolio', 'type': 'dropdown' },
+    // { 'label': 'Portofolio', 'type': 'dropdown' },
     { 'label': 'Gallery', 'type': 'link', 'link': '/gallery' },
     { 'label': 'Contact', 'type': 'link', 'link': '/contact' }
 ];
